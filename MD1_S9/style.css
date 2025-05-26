@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Header */
+.header .row {
+    padding: 0.5%;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.header .row .col-7 img{
+    width: 100px;
+    height: 40px;
+}
+
+.header .row .col-1{
+    padding-top: 0.5%;
+}
+
+.header .header-login{
+    float: right;
+}
+
+/* Main */
+main .container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* border: 1px solid red; */
+}
+
+main .container .row .col-3{
+    width: 32%;
+    /* border: 1px solid black; */
+}
+
+.col-3 .card{
+    padding: 2px;
+}
+
+.col-3 .card .card-body-img{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 2%;
+    justify-content: space-evenly;
+}
+
+.col-3 .card .card-body-img p{
+    margin-bottom: 0px;
+    padding: 2px 1px;
+}
+
+.card-body-img button{
+  background-color: black;
+}
